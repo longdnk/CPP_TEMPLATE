@@ -51,15 +51,27 @@ build cmake_object_order_depends_target_CPP_TEST: phony || CMakeFiles/CPP_TEST.d
 
 build CMakeFiles/CPP_TEST.dir/main.cpp.o: CXX_COMPILER__CPP_TEST_Debug /media/longsiga/Data/CPP_TEST/main.cpp || cmake_object_order_depends_target_CPP_TEST
   DEP_FILE = CMakeFiles/CPP_TEST.dir/main.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always -std=c++17 -Ofast -O2 -O3 -m64 -Wall -Wextra -march=native -finline-functions -funroll-loops -unroll-loops
   OBJECT_DIR = CMakeFiles/CPP_TEST.dir
   OBJECT_FILE_DIR = CMakeFiles/CPP_TEST.dir
 
 build CMakeFiles/CPP_TEST.dir/header/Student.cpp.o: CXX_COMPILER__CPP_TEST_Debug /media/longsiga/Data/CPP_TEST/header/Student.cpp || cmake_object_order_depends_target_CPP_TEST
   DEP_FILE = CMakeFiles/CPP_TEST.dir/header/Student.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always -std=c++17 -Ofast -O2 -O3 -m64 -Wall -Wextra -march=native -finline-functions -funroll-loops -unroll-loops
   OBJECT_DIR = CMakeFiles/CPP_TEST.dir
   OBJECT_FILE_DIR = CMakeFiles/CPP_TEST.dir/header
+
+build CMakeFiles/CPP_TEST.dir/color.cpp.o: CXX_COMPILER__CPP_TEST_Debug /media/longsiga/Data/CPP_TEST/color.cpp || cmake_object_order_depends_target_CPP_TEST
+  DEP_FILE = CMakeFiles/CPP_TEST.dir/color.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=c++17 -Ofast -O2 -O3 -m64 -Wall -Wextra -march=native -finline-functions -funroll-loops -unroll-loops
+  OBJECT_DIR = CMakeFiles/CPP_TEST.dir
+  OBJECT_FILE_DIR = CMakeFiles/CPP_TEST.dir
+
+build CMakeFiles/CPP_TEST.dir/sol.cpp.o: CXX_COMPILER__CPP_TEST_Debug /media/longsiga/Data/CPP_TEST/sol.cpp || cmake_object_order_depends_target_CPP_TEST
+  DEP_FILE = CMakeFiles/CPP_TEST.dir/sol.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=c++17 -Ofast -O2 -O3 -m64 -Wall -Wextra -march=native -finline-functions -funroll-loops -unroll-loops
+  OBJECT_DIR = CMakeFiles/CPP_TEST.dir
+  OBJECT_FILE_DIR = CMakeFiles/CPP_TEST.dir
 
 
 # =============================================================================
@@ -69,7 +81,7 @@ build CMakeFiles/CPP_TEST.dir/header/Student.cpp.o: CXX_COMPILER__CPP_TEST_Debug
 #############################################
 # Link the executable CPP_TEST
 
-build CPP_TEST: CXX_EXECUTABLE_LINKER__CPP_TEST_Debug CMakeFiles/CPP_TEST.dir/main.cpp.o CMakeFiles/CPP_TEST.dir/header/Student.cpp.o
+build CPP_TEST: CXX_EXECUTABLE_LINKER__CPP_TEST_Debug CMakeFiles/CPP_TEST.dir/main.cpp.o CMakeFiles/CPP_TEST.dir/header/Student.cpp.o CMakeFiles/CPP_TEST.dir/color.cpp.o CMakeFiles/CPP_TEST.dir/sol.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/CPP_TEST.dir
   POST_BUILD = :
