@@ -1,0 +1,3 @@
+/media/longsiga/Data/CPP_TEST/cmake-build-debug/CMakeFiles/CPP_TEST.dir
+/media/longsiga/Data/CPP_TEST/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/longsiga/Data/CPP_TEST/cmake-build-debug/CMakeFiles/rebuild_cache.dir
