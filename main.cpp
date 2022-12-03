@@ -31,19 +31,19 @@ int main() {
     cout << "\t\t===End Math List===\n\n";
 
     cout << "\t\t===Physic List===\n";
-    for (auto item : resPhysic) {
+    for (auto item: resPhysic) {
         item.display();
     }
     cout << "\t\t===End Physic List===\n\n";
 
     cout << "\t\t===Chemistry List=== \n";
-    for (auto item : resChemistry) {
+    for (auto item: resChemistry) {
         item.display();
     }
     cout << "\t\t===End Chemistry List===\n\n";
 
     cout << "\t\t===Max avg list===\n\n";
-    for (auto item : resStudent) {
+    for (auto item: resStudent) {
         item.display();
     }
     cout << "\t\t===End max avg list" << "\n\n";

@@ -158,7 +158,7 @@ public:
     }
 };
 
-int n, m, t, s{ 1 };
+int n, m, t, s { 1 };
 
 int32_t main() {
     ios::sync_with_stdio(false);
