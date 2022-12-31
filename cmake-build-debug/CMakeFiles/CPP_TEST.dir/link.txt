@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\CPP_TEST.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\ar.exe qc CMakeFiles\CPP_TEST.dir/objects.a @CMakeFiles\CPP_TEST.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\CPP_TEST.dir/objects.a -Wl,--no-whole-archive -o CPP_TEST.exe -Wl,--out-implib,libCPP_TEST.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CPP_TEST.dir\linklibs.rsp

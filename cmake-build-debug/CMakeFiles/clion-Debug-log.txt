@@ -1,4 +1,4 @@
-/home/longsiga/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/longsiga/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/ninja/linux/ninja -G Ninja -S /media/longsiga/Data/CPP_TEST -B /media/longsiga/Data/CPP_TEST/cmake-build-debug
+"C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S F:\CPP -B F:\CPP\cmake-build-debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: /media/longsiga/Data/CPP_TEST/cmake-build-debug
+-- Build files have been written to: F:/CPP/cmake-build-debug
